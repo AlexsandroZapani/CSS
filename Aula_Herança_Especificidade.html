@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Herança e especificidade</title>
+	<meta charset="utf-8">
+
+	<style>
+		.div1 {
+			color: red;
+		}
+
+		.div2 {
+			color: green;
+		}
+
+		.div2 h2 {
+			color: blue;
+		}
+		
+	</style>
+</head>
+
+<body>
+
+	<div class="div1">
+		<h2>Herança</h2>
+
+		<p>
+			Loren ipsum dolor sit ament, consectetur adpiscing elit. Fusce sed auge ac tortor gravida ultrices sit amet
+			vitae urna.
+		</p>
+
+		<p>
+			Loren ipsum dolor sit ament, consectetur adpiscing elit. Fusce sed auge ac tortor gravida ultrices sit amet
+			vitae urna.
+		</p>
+
+	</div>
+
+	<div class="div2">
+		<h2>Especificidade</h2>
+
+		<p>
+			Precedencia: Quais regras serão aplicadas primieiro
+		</p>
+
+		<p>
+			Especificidade: A regra mais especifica sera aplicada primeiro
+		</p>
+
+	</div>
+</body>
+
+</html>
